@@ -1,0 +1,200 @@
+.Logo{
+    offset-path: path('M 100,100 m -20,0 a 20,20 0 1,0 40,0 a 20,20 0 1,0 -40,0');
+  offset-rotate: 0deg;
+  animation: circleAnimation 10s linear infinite;
+}
+
+/* Clockwise */
+.clockwise {
+    animation: circleAnimation 10s linear infinite;
+  }
+  
+  /* Anticlockwise */
+  .anticlockwise {
+    animation: circleAnimation 10s linear infinite reverse;
+  }
+  .delay-0 {
+    animation-delay: 0s;
+  }
+  .delay-1 {
+    animation-delay: 2.5s;
+  }
+  .delay-2 {
+    animation-delay: 5s;
+  }
+  .delay-3 {
+    animation-delay: 7.5s;
+  }
+    
+
+
+
+@keyframes circleAnimation {
+    to {
+        offset-distance: 100%;
+      }
+  }
+
+
+
+
+
+  @media (max-width: 546px) {
+    .carouselLeftBtton{
+      left: 3vw;
+      
+    }
+    #portfolio{
+      margin-bottom: 5vh;
+    }
+    .projectContainer{
+      margin-top: 0vh;
+      margin-bottom: 2vh;
+    }
+    .projectsLabelContainer{
+      margin-bottom: 2vh;
+    }
+    .projectsLabelContainer{
+      margin-bottom: 2vh;
+    }
+.projectshowcaseImg{
+ width: 100%;
+ height: 35vh;
+}
+.carousel{
+  margin: 0;
+}
+    .projectShowcaseButton{
+      margin: 2rem;
+    }
+.photocard{
+  height: 45vh;
+}
+    .myphoto img{
+      width: 30vh;
+
+    }
+    .rectangleDesign{
+      height: 18vh;
+      bottom: 13vh;
+
+    }
+    .portfolio_content{
+      margin: 0;
+    }
+    .navContainer{
+     display: flex;
+     justify-items: center;
+    }
+ .navContentContainer{
+  width: 90vw;
+  gap: 0;
+ }
+ .navName{
+  margin: 0;
+  font-size: 15px;
+ }
+ .appearing_img img{
+  width: 4rem;
+ }
+ .landpage_name{
+  font-size: 30px;
+ }
+ .landpage_label{
+  font-size: 28px;
+ }
+ .experience_line{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+ }
+ .hire_Button{
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+ }
+.hire_Button img{
+  width: 1rem;
+}
+.hire_Button span{
+  font-weight:500;
+}
+.mernLogosLine{
+  margin-top: 2rem;
+}
+.logos{
+  gap: 0.5rem;
+}
+.logos img{
+height: 2.75rem;
+}
+.serviceContainer{
+  margin-top: 2.5rem;
+}
+.serviceLabel{
+  font-size: 30px;
+}
+.services_line{
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding: 0.75rem;
+  text-align: center;
+}
+.service_items{
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.contactLabelContainer{
+  margin-top: 2.5rem;
+}
+.contactContainer{
+ font-size: 30px;
+
+  }
+  .contacat_line{
+    font-size: 15px;
+  }
+  .contactLogos{
+    display: none;
+  }
+  .contactDetails{
+    flex-direction: column;
+    gap: 0.1rem;
+    margin: 0.03rem;
+  }
+  .whatsappLogo{
+    height: 3rem;
+  }
+  .emailLogo{
+    height: 3rem;
+  }
+  .whatsappInfo{
+    height: 160px;
+    width:390px ;
+  }
+  .contactText{
+    font-size: 17px;
+  }
+  .emailInfo{
+    height: 160px;
+    width:390px ;
+  }
+  .contactLastLine{
+    font-size: 15px;
+    margin: 3rem;
+    text-align: center;
+  }
+  .footerLabel{
+    font-size: 25px;
+    margin-left: 1rem;
+  }
+  .footerLine{
+    font-size: 15px;
+    margin-left: 1rem;
+  }
+ 
+}
