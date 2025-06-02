@@ -8,7 +8,7 @@ const Portfolio = () => {
   <div className="portfolio-Container flex flex-col justify-center" >
       <Navbar/>
       <div className="photocard h-[50vh]">
-        <div className="myphoto flex justify-center items-center mt-[5vh]  "><img className=' w-[20vw]  rounded-[50%] ' src={myImg} alt="" /></div>
+        <div className="myphoto flex justify-center items-center mt-[5vh]  "><img className=' w-[20vw]  rounded-[50%] transition duration-300 hover:grayscale' src={myImg} alt="" /></div>
         <div className="rectangleDesign w-full bg-[#a19999] h-[20vh] relative bottom-[17vh] -z-10"></div>
       </div>
           <div className='portfolio_content flex flex-col justify-center items-center m-4 '> 
