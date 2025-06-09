@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import myImg from '../portfolio_items/my_pic.JPG'
 import Portfolio_showcase from '../components/Portfolio_showcase'
@@ -9,7 +10,7 @@ const Portfolio = () => {
       <Navbar/>
       <div className="photocard h-[50vh]">
         <div className="myphoto flex justify-center items-center mt-[5vh]  "><img className=' w-[20vw]  rounded-[50%] transition duration-300 hover:grayscale' src={myImg} alt="" /></div>
-        <div className="rectangleDesign w-full bg-[#a19999] h-[20vh] relative bottom-[17vh] -z-10"></div>
+        <div className="rectangleDesign w-full bg-[#4a8599] h-[20vh] relative bottom-[17vh] -z-10"></div>
       </div>
           <div className='portfolio_content flex flex-col justify-center items-center m-4 '> 
             <div className='landpage_name text-[50px] font-extrabold font-alegreya text-[#2C2828]'>Muhammad Aman Arshad</div>
@@ -25,7 +26,7 @@ const Portfolio = () => {
         
           <Portfolio_showcase/>
   </div>
-
+<Footer/>
 </>
   )
 }

@@ -26,20 +26,19 @@
     animation-delay: 7.5s;
   }
     
-
-
-
 @keyframes circleAnimation {
     to {
         offset-distance: 100%;
       }
   }
 
-
-
-
-
   @media (max-width: 546px) {
+    .projectsContainer{
+      font-size: 30px;
+    }
+    .rectangleDesignMobile{
+      display: none;
+    }
     .carouselLeftBtton{
       left: 3vw;
       
@@ -51,7 +50,7 @@
       margin-bottom: 5vh;
     }
     .projectContainer{
-      margin-top: 0vh;
+      margin-top: 2vh;
       margin-bottom: 2vh;
     }
     .projectsLabelContainer{
@@ -69,6 +68,9 @@
 }
     .projectShowcaseButton{
       margin: 2rem;
+    }
+    .projectShowcaseButton span{
+      font-size: small;
     }
 .photocard{
   height: 45vh;
