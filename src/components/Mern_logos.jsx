@@ -2,7 +2,7 @@ import React from 'react'
 import mongo from '../portfolio_items/mongo.png'
 import node from '../portfolio_items/node.png'
 import react from '../portfolio_items/react.png'
-import js from '../portfolio_items/JS.png'
+import js from '../portfolio_items/js.png'
 const Mern_logos = () => {
   return (
    <>
