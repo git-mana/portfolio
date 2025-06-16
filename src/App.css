@@ -27,7 +27,7 @@
   .delay-3 {
     animation-delay: 7.5s;
   }
-    
+  
 @keyframes circleAnimation {
     to {
         offset-distance: 100%;

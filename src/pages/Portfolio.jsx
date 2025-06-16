@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import myImg from '../portfolio_items/my_pic.JPG'
+import myImg from '../portfolio_items/my_pic.jpg'
 import Portfolio_showcase from '../components/Portfolio_showcase'
 const Portfolio = () => {
   return (
