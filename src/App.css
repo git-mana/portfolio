@@ -35,6 +35,9 @@
   }
 
   @media (max-width: 546px) {
+    .mernLogosLine{
+      font-size: 15px;
+    }
     .projectsContainer{
       font-size: 30px;
     }
@@ -134,6 +137,7 @@
 }
 .logos{
   gap: 0.5rem;
+  margin-top: 1rem;
 }
 .logos img{
 height: 2.75rem;
